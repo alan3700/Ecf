@@ -69,7 +69,12 @@
     --noir:#331100;
 }
 
-
+.article-hero{
+    background-image: url(../img/Photo.png);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
 /* Composent */
 
 
@@ -472,6 +477,11 @@ figcaption{
     padding-bottom: 5rem;
     text-align: center;
 }
+
+/* PAGE MODULE */
+
+
+
 
 /* PAGE FORMULAIRE */
 .contact{
