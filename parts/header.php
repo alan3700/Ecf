@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylehome.css">
-    <link rel="stylesheet" href="css/styleforma.css">
+    <link rel="stylesheet" href="css/styletwo.css">
     <link rel="stylesheet" href="css/help.css">
     <link rel="stylesheet" href="css/reset.css">
     <title><?php if ( isset($page) ) { echo $page . ' - '; } ?>ECF</title>

@@ -7,7 +7,7 @@
             <div class="container container-hero">
                 <div class="cta-hero">
                     <h1>Bienvenue sur le site de la<br> promotion DwwM2021-3</h1>
-                    <a class="cta-link-hero" href="etudiant.html">Rencontrez nos etudiants</a>
+                    <a class="cta-link-hero" href="etudiant.php">Rencontrez nos etudiants</a>
                 </div>
             </div>
         </section>

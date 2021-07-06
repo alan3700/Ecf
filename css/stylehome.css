@@ -69,12 +69,6 @@
     --noir:#331100;
 }
 
-.article-hero{
-    background-image: url(../img/Photo.png);
-    min-height: 50vh;
-    background-size: cover;
-    background-position: center;
-}
 /* Composent */
 
 
@@ -133,10 +127,7 @@ h2,
     text-decoration: none;
     transition: .3s;
 }
-.menu-item .menu-link-active{
-    background-color: white;
-    color:var(--accent);
-}
+
 
 .menu-link:hover,
 .menu-link:focus {
@@ -194,13 +185,7 @@ figcaption{
     padding-bottom: 0px;
     display: flex;
 }
-.derniere-actu .list-derniere-actu{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
-}
+
 .card{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 48px #00000029;
@@ -260,6 +245,7 @@ figcaption{
     border-style: solid;
     border-radius: 5px;
 }
+
 
 
 /* Layout */
@@ -347,6 +333,7 @@ figcaption{
     width: 59rem;
     height: 8rem;
 }
+
  
 
 
@@ -359,10 +346,20 @@ figcaption{
  .derniere-actu h2{
      text-align: center;
  }
+ .list-derniere-actu{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
 
-
-
-
+@media screen and (max-width:48em) {
+    .list-derniere-actu{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+}
 
 /* RENCONTRE ETUDIANT */
 
@@ -397,6 +394,7 @@ figcaption{
     grid-template-columns: repeat(4,1fr);
     gap: 2rem 10rem;
 }
+
 .section-etudiant-content{
     border-radius:0.4rem ;
     transition: 0.3s;
@@ -410,12 +408,13 @@ figcaption{
 
 /* MODULE FORMATION */
 
-.dernier-module .list-dernier-module{
+.list-dernier-module{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     padding-top: 4rem;
 }
+
 .dernier-module{
     text-align: center;
     padding-top: 4rem;
