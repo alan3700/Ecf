@@ -13,7 +13,7 @@
                                 <h3>Module JavaScript</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <a class="btn-article" href="articlepost.html">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
+                            <a class="btn-article" href="articlepost.php">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
                         </li>
                         <li class="card card-module">
                             <img src="img/Photo-1.png" srcset="img/Photo-1@2x.png 2x" alt="image-module">
@@ -21,7 +21,7 @@
                                 <h3>Module HTML/CSS</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <a class="btn-article" href="articlepost.html">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
+                            <a class="btn-article" href="articlepost.php">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
                         </li>
                         <li class="card card-module">
                             <img src="img/Photo.png" srcset="img/Photo@2x.png 2x" alt="image-module">
@@ -29,7 +29,7 @@
                                 <h3>Module JavaScript</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <a class="btn-article" href="articlepost.html">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
+                            <a class="btn-article" href="articlepost.php">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
                         </li>
                         <li class="card card-module">
                             <img src="img/Photo.png" srcset="img/Photo@2x.png 2x" alt="image-module">
@@ -37,7 +37,7 @@
                                 <h3>Module JavaScript</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <a class="btn-article" href="articlepost.html">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
+                            <a class="btn-article" href="articlepost.php">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
                         </li>
                         <li class="card card-module">
                             <img src="img/Photo.png" srcset="img/Photo@2x.png 2x" alt="image-module">
@@ -45,7 +45,7 @@
                                 <h3>Module JavaScript</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <a class="btn-article" href="articlepost.html">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
+                            <a class="btn-article" href="articlepost.php">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
                         </li>
                         <li class="card card-module">
                             <img src="img/Photo.png" srcset="img/Photo@2x.png 2x" alt="image-module">
@@ -53,7 +53,7 @@
                                 <h3>Module JavaScript</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <a class="btn-article" href="articlepost.html">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
+                            <a class="btn-article" href="articlepost.php">Lire la suite<img src="img/Icon feather-arrow-right-circle.svg"></a>
                         </li>
                     </ul>
                     <div class="button-pagination">

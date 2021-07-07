@@ -79,10 +79,19 @@ h2,
 }
 
 /*HEADER ET NAVIGATION */ 
+
+
+.flex-header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .toggle-menu {
     margin: 2.5rem;
     padding: 0.5rem 1rem;
-    color: var(--inverted);
+    color: white;
     border: 0;
     transition: .3s;
     background-color: var(--accent);
@@ -90,10 +99,7 @@ h2,
     border-radius: 20%;
 }
 
-.toggle-menu:hover,
-.toggle-menu:focus {
-    background-color: white;
-}
+
 .menu {
     position: absolute;
     top: 100%;
@@ -127,20 +133,12 @@ h2,
     text-decoration: none;
     transition: .3s;
 }
-
-
-.menu-link:hover,
-.menu-link:focus {
+.active {
     background-color: white;
-    color: var(--accent);
-}
-.flex-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-content: center;
+    color : var(--accent);
 }
 
-@media screen and (min-width: 48em) { 
+@media screen and (min-width: 62em) { 
     .toggle-menu {
         display: none;
     }
@@ -163,20 +161,14 @@ footer{
 }
 /* HEADER */
 
-header{
-    display: flex;
-}
 header h2{
     font-size: 4rem;
 }
-.nav-container{
-    padding-top: 1rem;
+header{
+    display: flex;
 }
 
-/* FOOTER */
-footer{
-    padding-top: 4rem;
-}
+
 
 /* Card actu */
 
@@ -230,6 +222,20 @@ figcaption{
     line-height: 3rem;
 }
 
+
+figure img{
+    width: 100%;
+}
+
+
+@media screen and (max-width:48em) {
+    .list-dernier-module{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+}
+
+
 /* Button slider */
 .button-pagination{
     padding-top: 4rem;
@@ -247,6 +253,11 @@ figcaption{
 }
 
 
+.pagination:hover,
+.pagination:focus{
+    background-color: var(--accent);
+    color: white;
+}
 
 /* Layout */
 
@@ -291,11 +302,24 @@ figcaption{
     }
 }
 
+@media screen and (min-width:75em) {
+    .container{
+        width: 100%;
+        max-width: 127rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 
+}
 
 
 /* HERO */
-
+.cta-link-hero:hover{
+    color: var(--accent);
+    background-color: white;
+}
 
 .section-hero{
     min-height: 80ch;
@@ -303,7 +327,7 @@ figcaption{
     background-position: center;
     background-size: cover;
 }
-.container .container-hero{
+.container.container-hero{
     position: relative;
 }
 .cta-hero{
@@ -315,9 +339,10 @@ figcaption{
     min-width: 90rem;
     min-height: 35rem;
     top: 24rem;
-    right: 28rem;
+    right: 0;
 }
 .cta-hero h1{
+    font-family: 'Montserrat Bold';
     color: white;
     font-size: 7rem;
 }
@@ -360,6 +385,7 @@ figcaption{
        grid-template-columns: 1fr;
    }
 }
+
 
 /* RENCONTRE ETUDIANT */
 
@@ -406,6 +432,13 @@ figcaption{
     text-decoration: underline;
 }
 
+
+@media screen and (max-width:48em) {
+    .grid-container-etudiant{
+       display: grid;
+       grid-template-columns:1fr  1fr;
+   }
+}
 /* MODULE FORMATION */
 
 .list-dernier-module{
@@ -424,8 +457,16 @@ figcaption{
     padding-top: 4rem;
     padding-bottom: 1rem;
 }
-
+@media screen and (max-width:48em) {
+    .list-dernier-module{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+}
 /* FOOTER */
+footer{
+    padding-top: 4rem;
+}
 .contact-footer{
     line-height: 2em;
 }
@@ -447,12 +488,17 @@ figcaption{
     color: white;
     padding: 2rem;
 }
-
+@media screen and (max-width:48em) {
+    .flex-container{
+        display: block;
+    }
+}
 /* FORMATION */ 
 .title-forma{
     padding-bottom: 4rem;
 }
 .para-formation{
+    padding-bottom: 4rem;
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
@@ -476,10 +522,55 @@ figcaption{
     padding-bottom: 5rem;
     text-align: center;
 }
+ 
 
-/* PAGE MODULE */
+/* PAGE ARTICLE MODULE */
 
+.article-hero{
+    display: grid;
+    place-items: center;
+    background-image: url(../img/Photo.png);
+    min-height: 45vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.content{
+    width: 100%;
+    padding-right: 45rem;
+    padding-left: 45rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* PAGE post formation */
+
+.date{
+    padding-bottom: 4rem;
+    display: flex;
+}
+.container-forma{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+.container-forma h1{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.imgpresentation{
+    width: 80rem;
+}
+.para-forma{
+    text-align: left;
+}
 
 
 /* PAGE FORMULAIRE */
@@ -530,4 +621,33 @@ textarea{
     width: 100%;
     min-height: 30rem;
 }
+ 
 
+
+/* PAGE PROFIL */
+
+.container-profil{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+}
+.grid-profil{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.content-profil{
+    margin-bottom: 4rem;
+}
+.en-deux-mot{
+    display: grid;
+    grid-column: 1/5;
+    margin-bottom: 0rem;
+}
+@media screen and (max-width:48em){
+    .grid-profil{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

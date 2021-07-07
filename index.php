@@ -1,4 +1,4 @@
-<?php $page ='Acceuil'; ?>
+<?php $page ='Home'; ?>
 
 <?php include('parts/header.php'); ?>
 
