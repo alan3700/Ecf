@@ -1,4 +1,4 @@
-<?php $page='Article'; ?>
+<?php $page='Actualité'; ?>
 
 <?php include('parts/header.php'); ?>
     <main>

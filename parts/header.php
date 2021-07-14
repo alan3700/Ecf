@@ -19,7 +19,7 @@
             </div>
             <div class="nav-container">
                 <nav class="main-nav">
-                    <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
+                    <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu </button>
                     <ul id="menu" class="menu" role="list" hidden>
                         <li class="menu-item ">
                             <a href="index.php" class="menu-link  <?php if ( isset($page) && $page === 'Home'){echo 'active';} ?>">Accueil</a>

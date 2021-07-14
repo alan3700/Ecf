@@ -1,4 +1,4 @@
-<?php $page='Post'; ?>
+<?php $page='Formation'; ?>
 
 <?php include('parts/header.php'); ?>
     <main>

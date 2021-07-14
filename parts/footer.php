@@ -2,9 +2,13 @@
 <footer>
     <div class="container flex-container">
        <div class="contact-footer">
+       <adresse>
             <h4>Développer web et web mobile</h4>
-            <p>CEFIM<br> 32 Avenue Marcel Dassault<br> 37200 Tours<br> T : 02 47 40 26 80</p>
+            <p>CEFIM<br> 32 Avenue Marcel Dassault<br> 37200 Tours</p>
+             <a class="lien-foot" href="T : 02 47 40 26 80">T : 02 47 40 26 80</a>
+            </adresse>
         </div> 
+        
        <div class="mention-footer">
         <a class="lien-confi" href="confidentialite.php"><NOBR>Mentions légales</NOBR></a>
            <a class="lien-confi" href="confidentialite.php"><NOBR>Politique de confidentialité</NOBR></a>
