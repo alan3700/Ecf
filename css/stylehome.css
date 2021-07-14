@@ -731,6 +731,8 @@ textarea{
     place-self: center;
 }
 .container-profil h1{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     text-align: center;
 }
 .grid-profil{
@@ -748,6 +750,11 @@ textarea{
         display: grid;
         grid-template-columns:repeat(3,1fr);
     }
+    .container-profil img{
+        width: 30rem;
+        height: 30rem;
+        place-self: center;
+    }
     .en-deux-mot{
         width: 100%;
         margin-bottom: 0rem;
@@ -757,6 +764,11 @@ textarea{
     .grid-profil{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .container-profil img{
+        width: 20rem;
+        height: 20rem;
+        place-self: center;
     }
 
 }
