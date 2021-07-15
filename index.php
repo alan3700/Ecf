@@ -13,10 +13,10 @@
         </section>
         <section class="derniere-actu">
             <div class="container">
-                <h2>Les dernieres actualités</h2>
+                <h2>Les dernières actualités</h2>
                 <ul class="list-derniere-actu" role="list">
                 <li class="card last-card">
-                        <figure><img src="img/Photo-2png" srcset="img/Photo-2@2x.png 2x" alt="image d'un ordinateur"></figure>
+                        <figure><img src="img/Photo-2.png" srcset="img/Photo-2@2x.png 2x" alt="image d'un ordinateur"></figure>
                         <div class="figcaption">
                             <img src="img/Icone date.svg">
                             <p>12/02/2020</p>

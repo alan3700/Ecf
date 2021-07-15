@@ -106,6 +106,7 @@ h2,
     transition: .5s;
     background-color: var(--accent);
     color: white;
+    z-index: 1000;
 }
 
 .menu[hidden] {
@@ -375,7 +376,7 @@ figure img{
 }
 @media screen and (max-width:62em) {
     .cta-hero{
-        
+        z-index: 0;
         min-height: 20rem;
     }
     .cta-hero h1{
