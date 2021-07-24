@@ -15,17 +15,17 @@
        </div>
        <div class="reseaux-picto-footer">
             <div class="picto-footer">
-                <a href="www.facebook.com">
+                <a href="https://facebook.com">
                 <img src="img/Icon awesome-facebook-f.svg" alt="icon facebook">
                 </a>
             </div>
             <div class="picto-footer">
-                <a href="www.twitter.com">
+                <a href=https://twitter.com/">
                 <img src="img/Icon awesome-twitter.svg" alt="icon twitter">
                 </a>
             </div>
             <div class="picto-footer">
-                <a href="www.linkedin.com">
+                <a href="https://linkedin.com">
                 <img src="img/Icon awesome-linkedin-in.svg" alt="icon linkedin">
                 </a>
             </div>

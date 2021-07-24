@@ -481,14 +481,15 @@ figure img{
 
 .section-etudiant-content{
     border-radius:0.4rem ;
-    transition: 0.3s;
     padding: 0.8rem;
 }
 
 .more{
     color:white ;
     text-decoration: underline;
+    transition:0.3s;
 }
+
 
 
 @media screen and (max-width:62em) {
